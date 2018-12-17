@@ -2,7 +2,7 @@
   <div id="app">
     <b-container fluid class="bg-light full-height">
       <div class="nav-wrapper">
-        <b-nav id="nav" pills:true class="text-center">
+        <b-nav id="nav" :pills="true" class="text-center">
           <!-- <router-link to="/">Home</router-link> |
           <router-link to="/about">About</router-link> -->
           <b-nav-item to="/" exact>Home</b-nav-item>
@@ -17,7 +17,7 @@
 </template>
 
 <style lang="scss">
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
