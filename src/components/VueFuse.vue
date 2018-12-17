@@ -13,7 +13,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.searchForm{
-  padding: 2.5% 15%;
+
+.container.searchForm{
+  margin-bottom: 20px;
+  max-width: 580px;
 }
 </style>
