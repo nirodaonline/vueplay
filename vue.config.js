@@ -21,3 +21,8 @@
 //         }
 //     }
 // };
+module.exports = {
+  baseUrl: (process.env.NODE_ENV && process.env.NODE_ENV === 'production')
+    ? '/vueplay/'
+    : '/'
+}
