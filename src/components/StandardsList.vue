@@ -9,7 +9,7 @@
 
           <b-list-group-item
             v-for="(standard,index) in results" :key="index"
-            :href="'/standard/'+standard.id"
+            :to="'/standard/'+standard.id"
             class="standardList-item flex-column align-items-start"
             :variant="(index%2===0)? 'dark' : 'default'"
           >

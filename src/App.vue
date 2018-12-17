@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+
     <b-container fluid class="bg-light full-height">
+
       <div class="nav-wrapper">
         <b-nav id="nav" :pills="true" class="text-center">
           <!-- <router-link to="/">Home</router-link> |
@@ -9,15 +11,25 @@
           <b-nav-item to="/about" exact>About</b-nav-item>
         </b-nav>
       </div>
-      <router-view/>
-    </b-container>
 
+      <div class="body">
+        <b-container class="mb-5">
+          <b-card>
+
+            <img alt="Logo" src="./assets/logo.svg" height="50" width="50">
+            <router-view/>
+
+          </b-card>
+        </b-container>
+      </div>
+
+    </b-container>
 
   </div>
 </template>
 
 <style lang="scss">
-// @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -41,5 +53,17 @@
 }
 .full-height{
   min-height: 100vh;
+}
+
+.body{
+  margin: 0 auto;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 80%;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 60%;
+  }
 }
 </style>

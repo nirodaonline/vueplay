@@ -10,17 +10,25 @@ Vue.use(VueFuse);
 
 Vue.config.productionTip = false
 
-// Vue.prototype.$search = function (term, list, options) {
-//   return new Promise(function (resolve, reject) {
-//     var run = new Fuse(list, options)
-//     var results = run.search(term)
-//     resolve(results)
-//   })
-// }
-// export default { VueFuse }
-
+import standards from '@/data/demo-data.json';
 
 new Vue({
+  data: {
+    standards: standards,
+  },
+  methods: {
+    getStandards: function() {
+      return this.standards;
+    },
+    getStandardById: function(id){
+      for (var i=0; i < this.standards.length; i++) {
+        if (this.standards[i].id === id) {
+            return this.standards[i];
+        }
+      }
+      return false;
+    }
+  },
   router,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app')

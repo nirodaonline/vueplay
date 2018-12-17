@@ -9,12 +9,12 @@
       {
         "artist": "Charlie Parker",
         "description": "Charlie Parker's rendition of Summertime",
-        "video": "https://www.youtube.com/watch?v=k7CHDscLREk"
+        "youtube_vid": "k7CHDscLREk"
       },
       {
         "artist": "Chet Baker",
         "description": "Chet Baker's rendition of Summertime",
-        "video": "https://www.youtube.com/watch?v=b4yfJccwu2g"
+        "youtube_vid": "b4yfJccwu2g"
       }
     ]
   },
@@ -28,12 +28,12 @@
       {
         "artist": "Duke Ellignton",
         "description": "Duke Ellignton's rendition of Take the A Train",
-        "video": "https://www.youtube.com/watch?v=KV8Hj_E8LJc"
+        "youtube_vid": "KV8Hj_E8LJc"
       },
       {
         "artist": "Coleman Hawkins",
         "description": "Coleman Hawkins's rendition of Take the A Train",
-        "video": "https://www.youtube.com/watch?v=cXEZhLo8hcA"
+        "youtube_vid": "cXEZhLo8hcA"
       }
     ]
   }
