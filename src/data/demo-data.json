@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "title": "Summertime",
+    "author": "George Gershwin",
+    "description": "<strong>Summertime</strong> is an aria composed in 1934 by George Gershwin for the 1935 opera <em>Porgy and Bess</em>. The lyrics are by DuBose Heyward, the author of the novel Porgy on which the opera was based",
+    "wiki": "https://en.wikipedia.org/wiki/Summertime_(George_Gershwin_song)",
+    "performances": [
+      {
+        "artist": "Charlie Parker",
+        "description": "Charlie Parker's rendition of Summertime",
+        "video": "https://www.youtube.com/watch?v=k7CHDscLREk"
+      },
+      {
+        "artist": "Chet Baker",
+        "description": "Chet Baker's rendition of Summertime",
+        "video": "https://www.youtube.com/watch?v=b4yfJccwu2g"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Take the A Train",
+    "author": "Billy Strayhorn",
+    "description": "<strong>Take the 'A' Train</strong> is a jazz standard by Billy Strayhorn that was the signature tune of the Duke Ellington orchestra",
+    "wiki": "https://en.wikipedia.org/wiki/Take_the_%22A%22_Train",
+    "performances": [
+      {
+        "artist": "Duke Ellignton",
+        "description": "Duke Ellignton's rendition of Take the A Train",
+        "video": "https://www.youtube.com/watch?v=KV8Hj_E8LJc"
+      },
+      {
+        "artist": "Coleman Hawkins",
+        "description": "Coleman Hawkins's rendition of Take the A Train",
+        "video": "https://www.youtube.com/watch?v=cXEZhLo8hcA"
+      }
+    ]
+  }
+]
